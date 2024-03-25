@@ -17,7 +17,7 @@ const os = require('os');
 exports.scan = async (req, res) => {
     try {
         const storage = new Storage({
-            keyFilename: './controllers/grounded-will-401605-b2323bae386c.json'
+            keyFilename: '/etc/secrets/keys.json'
         });
 
         // Upload image to Google Cloud Storage
