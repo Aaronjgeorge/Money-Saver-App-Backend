@@ -62,7 +62,7 @@ app.use((req, res, next) => {
   
   mongoose
     .connect(
-      'mongodb+srv://kalibacardi:wXhNiejyH4Im0veA@cluster0.ahtv1kq.mongodb.net/Test?authSource=admin&replicaSet=atlas-hkl5dw-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true',
+      'mongodb+srv://kalibacardi:<password>@cluster0.ahtv1kq.mongodb.net/',
     
   {useNewUrlParser: true,
   useUnifiedTopology: true,
