@@ -62,7 +62,7 @@ app.use((req, res, next) => {
   
   mongoose
     .connect(
-      'mongodb+srv://kalibacardi:qj5Vd19uNdPlhZ05@cluster0.ahtv1kq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+      'mongodb+srv://kalibacardi:qj5Vd19uNdPlhZ05@cluster0.ahtv1kq.mongodb.net/Test?retryWrites=true&w=majority&appName=Cluster0',
     
   {useNewUrlParser: true,
   useUnifiedTopology: true,
